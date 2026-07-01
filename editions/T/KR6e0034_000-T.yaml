@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0034/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十住經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0286.xml
+    old_id: T10n0286
+hash: sha256:c8df90bfb3e6ed1359e54c93573387f53c13275273c174c51dba4d304addf702

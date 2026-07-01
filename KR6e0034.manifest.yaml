@@ -1,0 +1,199 @@
+canonical_identifier: bkk:krp/KR6e0034/v1
+canonical_location: https://kanripo.org/bkk/KR6e0034/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十住經
+  identifiers:
+    alt_id:
+    - T10n0286
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0286.xml
+    old_id: T10n0286
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit6
+- short: 森
+  label: 森
+  source_xml_id: wit7
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit5
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0034_000.yaml, hash: 'sha256:c8df90bfb3e6ed1359e54c93573387f53c13275273c174c51dba4d304addf702'}
+  - {seq: 1, filename: KR6e0034_001.yaml, hash: 'sha256:c1c102b458fb068dc461c46c03e373273515bbbf3a547da7dda7e1b4efae75ec'}
+  - {seq: 2, filename: KR6e0034_002.yaml, hash: 'sha256:38eb2c0712361428ce31758b1c64ac6f514ea73a27e1fcfd334d53950c9a1850'}
+  - {seq: 3, filename: KR6e0034_003.yaml, hash: 'sha256:03072a187e3954de4cc2db98e31753e45cfef461fb1b5a654f68747778ab95a6'}
+  - {seq: 4, filename: KR6e0034_004.yaml, hash: 'sha256:5c1f3c695845f945602ea9f6ebf0153337c3b48fe1f283c3add2adda1635abe2'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0034_001.markers.yaml, hash: 'sha256:aefe4ff7ef9f84863bc3d8956172d03a52c0009a3edde10c5753c08d96f6c13d'}
+  - {seq: 2, role: markers, filename: assets/KR6e0034_002.markers.yaml, hash: 'sha256:5b6f5fc244fdeafa7fdea2498dd602d73abf1341b83f14e90bac952e7347763c'}
+  - {seq: 3, role: markers, filename: assets/KR6e0034_003.markers.yaml, hash: 'sha256:e54e896f0040b2aaeb1833f313362b1022638e97590cf60bb3c90d88052a4275'}
+  - {seq: 4, role: markers, filename: assets/KR6e0034_004.markers.yaml, hash: 'sha256:ca3cd1991e96e2ee8aea3a00bbab12355b66f10840ad05867096006fa4f69736'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0034_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11603
+  label: 十住經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6e0034_T_001-mulu-1
+    span:
+    - body
+    - 12
+    - 12
+  label: 1 歡喜地
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6e0034_T_001-mulu-2
+    span:
+    - body
+    - 8374
+    - 8374
+  label: 2 離垢地
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0034_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8304
+  label: 十住經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0034_T_002-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 3 明地
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0034_T_002-mulu-2
+    span:
+    - body
+    - 3136
+    - 3136
+  label: 4 焰地
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0034_T_002-mulu-3
+    span:
+    - body
+    - 5354
+    - 5354
+  label: 5 難勝地
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0034_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 12217
+  label: 十住經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0034_T_003-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 6 現前地
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0034_T_003-mulu-2
+    span:
+    - body
+    - 3614
+    - 3614
+  label: 7 遠行地
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0034_T_003-mulu-3
+    span:
+    - body
+    - 7618
+    - 7618
+  label: 8 不動地
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6e0034_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 13645
+  label: 十住經卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6e0034_T_004-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 9 妙善地
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6e0034_T_004-mulu-2
+    span:
+    - body
+    - 4428
+    - 4428
+  label: 10 法雲地
+  type: mulu
+  level: 1
+hash: sha256:11ba3d46441f803e62b239e7259d4150ed89024c1594f99657eaddd2fe0e692d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
